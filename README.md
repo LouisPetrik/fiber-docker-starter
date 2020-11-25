@@ -10,5 +10,5 @@ docker build -t fiber-docker-starter .
 Executing: 
 
 ```bash
-docker run --net=host -p 80:80
+docker run --net=host -p 80:80 fiber-docker-starter 
 ```
