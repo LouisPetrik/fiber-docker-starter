@@ -3,4 +3,4 @@ RUN mkdir /app
 ADD . /app
 WORKDIR /app 
 RUN go build -o main .
-CMD ["go mod init fiber-starter", "go get -u github.com/gofiber/fiber/v2", "/app/main"]
+CMD ["go get -u github.com/gofiber/fiber/v2", "/app/main"]
